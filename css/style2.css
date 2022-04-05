@@ -1,0 +1,137 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+
+}
+p{
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+.hr-style{
+    border: 5px dotted red;
+    border-bottom: none;
+    width: 50px;
+}
+.hr-style1{
+    border: 5px dotted #fff;
+    border-bottom: none;
+    width: 50px;
+}
+/* common css */
+.navbar{
+    padding: 1% 10%;
+    background-color: #C0C0C0;
+    
+    
+}
+.navbar-icon{
+    color:red;
+}
+.nav-link{
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+   background:#898F9C;
+   color: #fff;
+   transform: scale(1.1);
+   border-bottom: 1px solid red;
+}
+.name h1{
+    color: red;
+}
+/* header end */
+
+/* contact */
+.contact{
+    background-image: url(../img/IMG-20181212-WA0004.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.overly{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .9;
+
+}
+.contact p{
+    text-align: center;
+    color: black;
+}
+.contact a{
+    font-size: 1.2rem;
+}
+
+
+
+.box{
+    padding: 2% 7%;
+    background-color: rgb(245, 236, 236);
+    color: white;
+    text-align: center;
+}
+
+.box button{
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+}
+.box::after{
+    display: table;
+    clear: both;
+    content: '';
+    
+}
+.box-head h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.box-head p{
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.pera i{
+    color: red;
+}
+
+/* contact end */
+/* footer part */
+footer{
+    padding: 1% 10%;
+    background-color: black;
+}
+footer a{
+    color: white;
+    margin: 0 7px;
+    text-decoration: none;
+
+}
+footer a:hover{
+    color: red;
+}
+
+/* footer part end */

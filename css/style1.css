@@ -1,0 +1,136 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+
+}
+p{
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+.hr-style{
+    border: 5px dotted red;
+    border-bottom: none;
+    width: 50px;
+}
+.hr-style1{
+    border: 5px dotted #fff;
+    border-bottom: none;
+    width: 50px;
+}
+/* common css */
+.navbar{
+    padding: 1% 10%;
+    background-color: #C0C0C0;
+    
+    
+}
+.navbar-icon{
+    color: red;
+}
+.nav-link{
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+   background:#898F9C;
+   color: #fff;
+   transform: scale(1.1);
+   border-bottom: 1px solid red;
+}
+.name h1{
+    color: red;
+}
+/* header end */
+/* about me part */
+
+.section-title h3 span{
+    color: red;
+}
+.about-img img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+}
+.about-img img:hover{
+    box-shadow: 0 4px 8px 10px black;
+}
+.about_me p{
+    text-align: left;
+}
+/* about me part end */
+/* experience part */
+#skill{
+    padding: 1% 8.8%;
+   background-color: #C0C0C0;
+}
+.special_one{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+
+.experince{
+    padding: 1% 7%;
+    padding-right: 5px;
+}
+
+.card{
+    background-color: #a39e9e;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .03s;
+   
+    width: 100%;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 20px black;
+}
+.card-icon{
+    text-align: center;
+}
+.card-icon img{
+    margin-top: 10px;
+    width: 100px;
+}
+.rounded-img{
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+.card-title h2{
+    background-color: #616161;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/* footer part */
+footer{
+    padding: 1% 10%;
+    background-color: black;
+}
+footer a{
+    color: white;
+    margin: 0 7px;
+    text-decoration: none;
+
+}
+footer a:hover{
+    color: red;
+}
+
+/* footer part end */
